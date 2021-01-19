@@ -28,7 +28,7 @@ export default function Results() {
         //console.log(data);
         //console.table(data);
         if (data.data[0]) {
-          //issn encontrado
+          //issn encontrad
           //let newData = removeIdCreateDate(data['data']);
           let newData = data.data;
           console.table(newData);
